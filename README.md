@@ -1,1 +1,1 @@
-# DroughtEffectsOnCorn #HotandCorny
+# DroughtEffectsOnCorn

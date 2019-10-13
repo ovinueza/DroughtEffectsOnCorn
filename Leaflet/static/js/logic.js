@@ -1,8 +1,6 @@
 // Store our API endpoint inside queryUrl
-//var link = "https://www1.ncdc.noaa.gov/pub/data/nidis/geojson/county/agcounty/geoag/ILmax.geojson";
-//var IA= "https://www1.ncdc.noaa.gov/pub/data/nidis/geojson/county/agcounty/geoag/IAmax.geojson";
 var link ="static/data/ProductsByCounty.geojson";
-var statesData ="static/js/statesData.geojson"
+var statesData ="static/data/statesData.geojson"
 
 var map = L.map("map", {
   center: [37.09, -95.75],
@@ -17,32 +15,6 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(map);
 
-//L.geoJson(statesData).addTo(map)
-
-// //Legend Color
-// function getcolor(CORN){
-//   return CORN>200000? "#FF0000":
-//   CORN > 150000? "#FF8C00":
-//   CORN > 100000? "#FFA500": 
-//   CORN > 50000?"#FFD700":
-//   CORN > 10000?"#ADFF2F":
-//   CORN < 0? "#7CFC00":
-//   "#808080";
-// };
-
-// var legend = L.control({position: "bottomright"});
-// legend.onAdd = function(){
-//   var div = LDomUtil.create("div", "info legend");
-//   bushels = [-1,0,10000,50000,100000,150000,200000],
-//   lables=[];
-
-//   for (var i = -1; i< bushels.length; i++){
-//     div.innerHTML +='<i style="background:' + getcolor(bushels[i]+1)+'"></i>'+
-//     bushels[i]+(bushels[i+1]?'&ndash;'+bushels[i+1]+'<br>':'+');
-//   };
-//   return div;
-// };
-//   legend.addTo(map);
 
 
 // Function that will determine the color of a COUNTY based on the CORN Bushels
@@ -64,31 +36,6 @@ function chooseColor(CORN) {
   };
 }
 
-// //Legend Color
-// function getcolor(CORN){
-//   return CORN>200000? "#FF0000":
-//   CORN > 150000? "#FF8C00":
-//   CORN > 100000? "#FFA500": 
-//   CORN > 50000?"#FFD700":
-//   CORN > 10000?"#ADFF2F":
-//   CORN < 0? "#7CFC00":
-//   "#808080";
-// };
-
-// var legend = L.control({position: "bottomright"});
-// legend.onAdd = function(){
-//   var div = LDomUtil.create("div", "info legend");
-//   bushels = [-1,0,10000,50000,100000,150000,200000],
-//   lables=[];
-
-//   for (var i = -1; i< bushels.length; i++){
-//     div.innerHTML +='<i style="background:' + getcolor(bushels[i]+1)+'"></i>'+
-//     bushels[i]+(bushels[i+1]?'&ndash;'+bushels[i+1]+'<br>':'+');
-//   };
-//   return div;
-// };
-//   legend.addTo(map);
-
 // Grabbing our GeoJSON data..
 d3.json(link, function(data) {
   // Creating a geoJSON layer with the retrieved data
@@ -99,7 +46,7 @@ d3.json(link, function(data) {
         color:"black",
         fillColor:"gray",
         fillOpacity:0.1,
-        weight: 1.5 ////FIX THIS!!!!!
+        weight: 2.5 
       };
     }
   }).addTo(map);
@@ -112,12 +59,11 @@ d3.json(link, function(data) {
         color: "black",
         // Call the chooseColor function to decide which color to color our CORN (color based on CNTYNAME)
         fillColor: chooseColor(feature.properties.CORN),
-        fillOpacity: 0.5,
-        weight: 1.5 //// OR FIX THIS ----- ALSO ADD A visualization as the map zooms in.
+        fillOpacity: 0.4,
+        weight: 1 
       };
     },
 
-  
 
     // Called on each feature
     onEachFeature: function(feature, layer) {
@@ -127,14 +73,14 @@ d3.json(link, function(data) {
         mouseover: function(event) {
           layer = event.target;
           layer.setStyle({
-            fillOpacity: 0.9
+            fillOpacity: 0.7
           });
         },
         // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
         mouseout: function(event) {
           layer = event.target;
           layer.setStyle({
-            fillOpacity: 0.5
+            fillOpacity: 0.4
           });
         },
         // When a feature (CORN) is clicked, it is enlarged to fit the screen
@@ -146,16 +92,9 @@ d3.json(link, function(data) {
       layer.bindPopup("<h3>" + feature.properties.CNTYNAME +", " +feature.properties.STATE+"</h3>"
       + "<hr>" +"<h3> Bushels: " + feature.properties.CORN + "</h3>");
     
-    
-    //function getcolor(CORN)
-
+  
     }
 
-      
-
-
   }).addTo(map);
-  //State Grid
- // L.geoJson(statesData).addTo(map)
 
 });

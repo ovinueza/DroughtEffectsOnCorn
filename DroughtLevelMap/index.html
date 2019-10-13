@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>droughtmonitor</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+    <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+ 
+
+ 
+    <nav id="menu"></nav>
+
+    <div id="map"></div>
+ 
+    <div class="map-overlay top">
+    <div class="map-overlay-inner">
+    <h2>Drought Monitor</h2>
+    <label id="month"></label>
+    <input id="slider" type="range" min="0" max="11" step="1" value="0" />
+    </div>
+    <div class="map-overlay-inner">
+    <div id="legend" class="legend">
+    <div class="bar"></div>
+    <div>Levels D0 to D4</div>
+    </div>
+    </div>
+    </div>
+ 
+<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<script src="static/js/config.js"></script>
+<script src="static/js/logic.js"></script>
+
+ 
+</body>
+</html>

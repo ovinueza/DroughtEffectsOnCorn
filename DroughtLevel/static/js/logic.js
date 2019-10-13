@@ -85,16 +85,7 @@ document.getElementById('month').textContent = months[month];
  
 map.on('load', function() {
  
-// Data courtesy of http://earthquake.usgs.gov/
-// Query for significant earthquakes in 2015 URL request looked like this:
-// http://earthquake.usgs.gov/fdsnws/event/1/query
-//    ?format=geojson
-//    &starttime=2015-01-01
-//    &endtime=2015-12-31
-//    &minmagnitude=6'
-//
-// Here we're using d3 to help us make the ajax request but you can use
-// Any request method (library or otherwise) you wish.
+
 $.getJSON("static/data/2012.geojson", function(data) {
 
 data.features = data.features.map(function(d) {

@@ -1,0 +1,462 @@
+Year,Frequency,Attribute,Commodity,Geography,Unit,Amount
+1975,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,927.673
+1975,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1060.361
+1975,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,912.515
+1975,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,681.211
+1976,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,936.572
+1976,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1038.892
+1976,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,899.836
+1976,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,726.581
+1977,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1016.577
+1977,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1069.293
+1977,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,939.432
+1977,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,704.441
+1978,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1160.223
+1978,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1228.996
+1978,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1136.449
+1978,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,748.694
+1979,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1270.98
+1979,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1299.23
+1979,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1149.527
+1979,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,843.306
+1980,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,154.5
+1980,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,144.7
+1980,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,182.6
+1980,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,177.4
+1980,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1235.721
+1980,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1142.829
+1980,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1092.393
+1980,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,761.195
+1981,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,173.3
+1981,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,165.4
+1981,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,201.3
+1981,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,193.4
+1981,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1217.381
+1981,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1199.236
+1981,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1089.201
+1981,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,738.727
+1982,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,207.5
+1982,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,192.4
+1982,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,227.8
+1982,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,226.8
+1982,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1215.012
+1982,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1305.189
+1982,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1272.274
+1982,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,780.77
+1983,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,227.4
+1983,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,212.3
+1983,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,252.5
+1983,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,237.9
+1983,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1325.275
+1983,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1068.82
+1983,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,954.487
+1983,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,527.68
+1984,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,244.1
+1984,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,236.1
+1984,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,294.4
+1984,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,292.6
+1984,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1300.708
+1984,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1191.467
+1984,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1019.422
+1984,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,602.915
+1985,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,276.3
+1985,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,262.4
+1985,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,307.3
+1985,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,306.5
+1985,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1218.713
+1985,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1305.947
+1985,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1090.542
+1985,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,498.995
+1986,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,294.473
+1986,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,281.491
+1986,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,332.613
+1986,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,324.834
+1986,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1347.813
+1986,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1463.15
+1986,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1087.691
+1986,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,760.813
+1986,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,67.943
+1986,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,71.514
+1986,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,77.433
+1986,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,73.102
+1987,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,296.133
+1987,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,287.58
+1987,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,336.842
+1987,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,331.092
+1987,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1550.856
+1987,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1443.791
+1987,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,951.23
+1987,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,843.367
+1987,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,67.245
+1987,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,69.087
+1987,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,72.962
+1987,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,69.851
+1988,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,302.286
+1988,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,301.351
+1988,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,352.931
+1988,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,341.192
+1988,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1343.769
+1988,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1064.258
+1988,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,841.289
+1988,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,684.594
+1988,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,70.847
+1988,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,76.469
+1988,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,72.52
+1988,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,67.61
+1989,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,311.94
+1989,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,312.905
+1989,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,376.009
+1989,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,369.186
+1989,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1486.722
+1989,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1275.564
+1989,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,993.064
+1989,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,627.134
+1989,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,63.647
+1989,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,80.471
+1989,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,89.467
+1989,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,87.861
+1990,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,337.532
+1990,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,329.87
+1990,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,384.036
+1990,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,373.676
+1990,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1618.744
+1990,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1351.049
+1990,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,960.025
+1990,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,679.089
+1990,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,76.166
+1990,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,86.986
+1990,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,90.879
+1990,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,95.036
+1991,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,360.451
+1991,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,362.222
+1991,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,414.532
+1991,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,396.301
+1991,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1673.65
+1991,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1266.825
+1991,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1041.847
+1991,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,815.591
+1991,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,97.732
+1991,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,100.223
+1991,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,100.877
+1991,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,99.432
+1992,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,370.076
+1992,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,365.046
+1992,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,413.716
+1992,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,406.914
+1992,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1814.316
+1992,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1401.098
+1992,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1145.764
+1992,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,890.911
+1992,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,103.057
+1992,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,106.333
+1992,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,112.001
+1992,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,104.119
+1993,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,382.787
+1993,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,378.918
+1993,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,422.715
+1993,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,428.734
+1993,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1701.179
+1993,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1239.916
+1993,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,949.507
+1993,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,789.248
+1993,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,110.447
+1993,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,117.923
+1993,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,113.104
+1993,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,116.786
+1994,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,410.361
+1994,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,410.53
+1994,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,452.481
+1994,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,441.825
+1994,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1962.546
+1994,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1491.634
+1994,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1159.076
+1994,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,846.405
+1994,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,132.751
+1994,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,140.176
+1994,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,139.114
+1994,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,120.751
+1995,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,417.151
+1995,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,405.541
+1995,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,434.522
+1995,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,372.734
+1995,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1778.124
+1995,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1343.51
+1995,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1042.448
+1995,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,526.648
+1995,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,121.2
+1995,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,120.8
+1995,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,92.2
+1995,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,61.5
+1996,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,387.863
+1996,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,400.324
+1996,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,472.951
+1996,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,454.992
+1996,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1884.507
+1996,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1486.177
+1996,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1095.467
+1996,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,808.882
+1996,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,91.918
+1996,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,106.164
+1996,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,119.237
+1996,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,111.403
+1997,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,438.7317248
+1997,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,433.0108968
+1997,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,481.7152819
+1997,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,485.2739985
+1997,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2026.623
+1997,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1494.932
+1997,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1071.71
+1997,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,854.577
+1997,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,114.2896
+1997,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,126.856
+1997,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,120.3136
+1997,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,126.2728
+1998,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,450.2762117
+1998,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,441.0476783
+1998,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,502.8100706
+1998,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,470.1771976
+1998,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2118.172
+1998,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1453.003
+1998,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1089.276
+1998,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,789.361
+1998,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,127.1962
+1998,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,134.6386
+1998,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,137.7832
+1998,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,118.202
+1999,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,463.6447128
+1999,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,454.1081063
+1999,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,523.0136007
+1999,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,497.578908
+1999,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2183.032
+1999,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1521.742
+1999,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1047.31
+1999,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,887.788
+1999,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,131.0714
+1999,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,140.3786
+1999,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,150.5168
+1999,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,143.8804
+2000,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,472.4194571
+2000,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,470.2933386
+2000,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,522.251506
+2000,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,515.1016386
+2000,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2125.163
+2000,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1601.966
+2000,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1144.723
+2000,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,947.05
+2000,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,144.2622
+2000,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,159.0834
+2000,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,161.292
+2000,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,165.1896
+2001,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,497.2719451
+2001,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,485.1472069
+2001,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,546.0049479
+2001,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,537.0153703
+2001,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2194.268
+2001,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1537.61
+2001,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1159.633
+2001,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,953.684
+2001,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,169.9033846
+2001,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,175.0076538
+2001,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,179.6915769
+2001,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,182.6358462
+2002,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,552.6818999
+2002,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,565.6700992
+2002,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,625.0527292
+2002,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,615.1590023
+2002,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1982.563
+2002,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1554.296
+2002,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1133.64
+2002,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,874.037
+2002,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,225.8593701
+2002,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,249.299252
+2002,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,256.5210236
+2002,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,263.8242913
+2003,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,592.6188514
+2003,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,610.6006779
+2003,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,682.5455391
+2003,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,666.7282895
+2003,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2160.484
+2003,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1569.345
+2003,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1159.002
+2003,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,888.808
+2003,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,262.4772727
+2003,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,290.3098485
+2003,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,304.6439394
+2003,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,310.1166667
+2004,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,645.2692932
+2004,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,639.6889325
+2004,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,709.84997
+2004,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,716.0158046
+2004,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2168.659
+2004,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1618.961
+2004,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1301.264
+2004,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,1042.765
+2004,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,311.6371321
+2004,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,323.8166038
+2004,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,332.1542642
+2004,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,355.6045283
+2005,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,706.0631445
+2005,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,715.593474
+2005,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,787.8990284
+2005,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,813.1243763
+2005,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2229.923
+2005,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1639.028
+2005,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1279.491
+2005,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,962.87
+2005,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,364.3128148
+2005,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,386.7066667
+2005,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,406.4551852
+2005,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,445.8497778
+2006,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,811.4304586
+2006,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,831.395286
+2006,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,936.6411065
+2006,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,966.4549657
+2006,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2159.36
+2006,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1521.752
+2006,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1108.372
+2006,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,745.844
+2006,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,465.9125926
+2006,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,506.1859259
+2006,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,545.8525926
+2006,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,601.5427407
+2007,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,985.7013081
+2007,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1045.962325
+2007,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1192.637324
+2007,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1222.660757
+2007,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2386.76
+2007,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1734.113
+2007,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1064.353
+2007,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,667.803
+2007,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,643.8537058
+2007,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,716.2191652
+2007,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,818.6091476
+2007,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,870.5320555
+2008,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1219.244528
+2008,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1178.243979
+2008,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1262.917019
+2008,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1370.093513
+2008,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1930.03
+2008,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1572.89
+2008,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,941.928
+2008,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,683.279
+2008,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,895.4072
+2008,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,874.14606
+2008,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,910.37657
+2008,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1028.95921
+2009,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1382.029
+2009,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1447.24
+2009,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1570.067
+2009,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1567.085
+2009,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1990.077
+2009,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1341.241
+2009,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1268.128
+2009,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,496.13
+2009,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1060.51
+2009,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1134.464
+2009,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1189.335
+2009,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1206.848
+2010,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1582.438
+2010,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1576.708
+2010,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1644.016
+2010,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1628.936
+2010,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2047.327
+2010,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1562.416
+2010,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,709.088
+2010,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,451.287
+2010,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1242.658
+2010,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1254.872
+2010,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1257.794
+2010,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1263.417
+2011,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1610.771
+2011,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1637.071
+2011,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1630.493
+2011,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1552.386
+2011,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,1781.86
+2011,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1546.195
+2011,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,857.408
+2011,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,326.606
+2011,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1265.728
+2011,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1303.844
+2011,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1243.296
+2011,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1187.164
+2012,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1465.621
+2012,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1429.863
+2012,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1573.424
+2012,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1575.398
+2012,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2059.698
+2012,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1087.335
+2012,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,914.64
+2012,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,246.966
+2012,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1124.38
+2012,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1105.063
+2012,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1191.162
+2012,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1220.522
+2013,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1550.106
+2013,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1602.303
+2013,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1682.723
+2013,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1695.687
+2013,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2313.517
+2013,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1457.983
+2013,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,846.908
+2013,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,385.769
+2013,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1215.751
+2013,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1271.144
+2013,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1298.856
+2013,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1337.939
+2014,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1614.701
+2014,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1621.427
+2014,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1672.703
+2014,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1686.525
+2014,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2226.897
+2014,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1445.998
+2014,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1094.289
+2014,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,520.256
+2014,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1276.24
+2014,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1293.929
+2014,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1294.531
+2014,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1335.39
+2015,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1631.15
+2015,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1651.573
+2015,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1654.927
+2015,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1709.497
+2015,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2178.498
+2015,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1437.843
+2015,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,914.201
+2015,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,587.312
+2015,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1300.202
+2015,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1316.279
+2015,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1264.796
+2015,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1342.337
+2016,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1688.915
+2016,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1711.494
+2016,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1741.336
+2016,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1743.485
+2016,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2278.852
+2016,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1523.15
+2016,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,981.553
+2016,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,686.089
+2016,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1343.078
+2016,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1371.212
+2016,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1346.101
+2016,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1371.562
+2017,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1742.739
+2017,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1738.731
+2017,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1781.506
+2017,Q4 Jun-Aug,"Food, seed, and industrial use",Corn,United States,Million bushels,1793.546
+2017,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2255.701
+2017,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1497.291
+2017,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,951.067
+2017,Q4 Jun-Aug,Feed and residual use,Corn,United States,Million bushels,600.241
+2017,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1391.29
+2017,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1397.464
+2017,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1388.639
+2017,Q4 Jun-Aug,Alcohol for fuel use,Corn,United States,Million bushels,1427.434
+2018,Q1 Sep-Nov,"Food, seed, and industrial use",Corn,United States,Million bushels,1711.699
+2018,Q2 Dec-Feb,"Food, seed, and industrial use",Corn,United States,Million bushels,1639.996
+2018,Q3 Mar-May,"Food, seed, and industrial use",Corn,United States,Million bushels,1713.139
+2018,Q1 Sep-Nov,Feed and residual use,Corn,United States,Million bushels,2285.984
+2018,Q2 Dec-Feb,Feed and residual use,Corn,United States,Million bushels,1194.797
+2018,Q3 Mar-May,Feed and residual use,Corn,United States,Million bushels,1113.619
+2018,Q1 Sep-Nov,Alcohol for fuel use,Corn,United States,Million bushels,1365.704
+2018,Q2 Dec-Feb,Alcohol for fuel use,Corn,United States,Million bushels,1308.554
+2018,Q3 Mar-May,Alcohol for fuel use,Corn,United States,Million bushels,1340.016

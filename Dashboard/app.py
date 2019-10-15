@@ -2,6 +2,7 @@ import os
 
 import pandas as pd
 import numpy as np
+import json
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
@@ -13,16 +14,17 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/CleanAverageDroughtData_20102019.sqlite"
-# db = SQLAlchemy(app)
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/CleanAverageDroughtData_20102019.sqlite"
+db = SQLAlchemy(app)
 
-# # reflect an existing database into a new model
-# Base = automap_base()
-# # reflect the tables
-# Base.prepare(db.engine, reflect=True)
+Base = automap_base()
+Base.prepare(db.engine, reflect=True)
 
-# # Save references to each table
-# drought_data = Base.classes.CleanAverageDroughtData_20102019
+print(Base.metadata.tables.keys())
+print(Base.classes)
+drought_data = Base.classes.Drought_data
+
+# df = pd.read_csv('db/CleanAverageDroughtData_2010-2019.csv')
 
 
 @app.route("/")
@@ -34,8 +36,8 @@ def index():
 def data():
     stmt = db.session.query(drought_data).statement
     df = pd.read_sql_query(stmt, db.session.bind)
-
-    return jsonify(list(df.columns)[:])
+    print(df.head())
+    return jsonify(df.to_dict(orient='records'))
 
 
 @app.route("/map")

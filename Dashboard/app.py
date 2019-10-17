@@ -37,6 +37,11 @@ def about():
     return render_template("about.html")
 
 
+@app.route("/map")
+def map():
+    return render_template("map.html")
+
+
 @app.route("/drought")
 def drought():
     return render_template("drought.html")

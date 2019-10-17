@@ -1,0 +1,83 @@
+function get_colors(n) {
+var colors = ["#a6cee3","#1f78b4","#b2df8a","#33a02c",
+"#fb9a99","#e31a1c","#fdbf6f","#ff7f00","#cab2d6",
+"#6a3d9a"];
+
+ return colors[ n % colors.length];}
+  
+var margin = {top: 61, right: 140, bottom: 101, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var  times = ["12am","1a", "2a", "3a", "4a", "5a", "6a",
+           "7a", "8a", "9a", "10a", "11a", "12pm", "1p",
+           "2p", "3p", "4p", "5p", "6p", "7p", "8p",
+           "9p", "10p", "11p"];
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+		.ticks(24, "s");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(5, "s");
+
+var area = d3.svg.area()
+    .x(function(d) { return x(d.hour); })
+    .y0(function(d) { return y(d.y0); })
+    .y1(function(d) { return y(d.y0 + d.y); });
+  
+  
+var stack = d3.layout.stack()
+    .values(function(d) { return d.values; });
+  
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", -40)
+    .attr("dy", "0.71em")
+    .attr("fill", "#000")
+    .text("SFPD Incidents by Hour in Dec 2016")
+    .style("font", "23px avenir")
+    .style("fill", "#000000");
+  
+  
+     svg.append("text")
+    .attr("x", 0)
+    .attr("y", 402)
+    .attr("dy", "0em")
+    .style("font", "12px avenir")
+    .style("fill", "#000000")
+    .text("This is a plot of the 10 most frequent incidents over a 24-hour period  in San Francisco during December 2016. Interestingly enough, most ");
+  
+    svg.append("text")
+    .attr("x", 0)
+    .attr("y", 402)
+    .attr("dy", "1em")
+    .style("font", "12px avenir")
+    .style("fill", "#000000")
+    .text("categories follow a similar structure: the occurences dip in the early morning and peak during the lunch and early evening hours.");
+  
+      svg.append("text")
+    .attr("x", 0)
+    .attr("y", 402)
+    .attr("dy", "3em")
+    .style("font", "12px avenir")
+    .style("fill", "#000000")
+    .text("By Anaelia Ovalle")
+    .style("font-weight", "bold");

@@ -40,10 +40,5 @@ def data():
     return jsonify(df.to_dict(orient='records'))
 
 
-@app.route("/map")
-def map():
-    return render_template("map.html")
-
-
 if __name__ == "__main__":
     app.run()

@@ -113,14 +113,62 @@
             <div
               class="collapse navbar-collapse justify-content-end"
               id="navigation"
-            ></div>
+            >
+              <li class="nav overlay-top">
+                <p>
+                  <label id="month"></label>
+                </p>
+              </li>
+              <ul class="navbar-nav">
+                <li class="nav-overlay top">
+                  <input
+                    id="slider"
+                    type="range"
+                    min="0"
+                    max="11"
+                    step="1"
+                    value="0"
+                  />
+                </li>
+                <li class="nav-overlay top">
+                  <img src="static\img\droughtlegend.PNG" width="200" />
+                </li>
+                <li class="nav overlay top">
+                  <!-- <div class="overlay-top"> -->
+                  <div id="legend" class="legend">
+                    <div class="bar"></div>
+                    <div>Level D0 to D4</div>
+                  </div>
+                  <!-- </div> -->
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <!-- Content -->
+
         <div class="content">
-          <div class="col-md-12">
-            <div id="map" class="map" style="width:100%; height: 850px;"></div>
-            <nav id="menu"></nav>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header ">
+                  <h5 class="card-title"></h5>
+                </div>
+                <div class="card-body ">
+                  <canvas width="400" height="100"></canvas>
+                </div>
+                <div
+                  id="map"
+                  class="map"
+                  style="width:100%; height: 800px;"
+                ></div>
+                <nav id="menu"></nav>
+                <div class="card-footer ">
+                  <p>Accompanying Text</p>
+                  <hr />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <footer class="footer footer-black  footer-white "></footer>

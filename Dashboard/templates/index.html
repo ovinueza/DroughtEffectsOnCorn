@@ -103,72 +103,47 @@
         <!-- Content -->
 
         <div class="content">
-          <div class="row">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card ">
+                  <div class="card-header ">
+                    <h5 class="card-title"></h5>
+                  </div>
+                  <div class="card-body ">
+                      <div id="graph"></div>
+                    <canvas width="400" height="100"></canvas>
+                  </div>
+                  <div class="card-footer ">
+                      <p> Some Accompanying Text</p>
+                    <hr />
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row">
             <div class="col-md-12">
               <div class="card ">
                 <div class="card-header ">
                   <h5 class="card-title"></h5>
                 </div>
                 <div class="card-body ">
-                  <div id="graph"></div>
+                    <div id="bar" style="width: 100%;"></div>
                   <canvas width="400" height="100"></canvas>
                 </div>
-                <div></div>
                 <div class="card-footer ">
+                  <p> Some Accompanying Text</p>
                   <hr />
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="row">
-            <div class="col-md-4">
-              <div class="card ">
-                <div class="card-header ">
-                  <h5 class="card-title">Chart Here?</h5>
-                  <p class="card-category">lil' explanation</p>
-                </div>
-                <div class="card-body ">
-                  <canvas id="chartEmail"></canvas>
-                </div>
-                <div class="card-footer ">
-                  <div class="legend">
-                    <i class="fa fa-circle text-primary"></i> Feed
-                    <i class="fa fa-circle text-warning"></i> Ethanol
-                    <i class="fa fa-circle text-danger"></i> Human Consumption
-                    <i class="fa fa-circle text-gray"></i> Something else?
-                  </div>
-                  <hr />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="card card-chart">
-                <div class="card-header">
-                  <h5 class="card-title">Graph Here?</h5>
-                  <p class="card-category">Line Chart with Points</p>
-                </div>
-                <div class="card-body">
-                  <canvas id="speedChart" width="400" height="100"></canvas>
-                </div>
-                <div class="card-footer">
-                  <div class="chart-legend">
-                    <i class="fa fa-circle text-info"></i> Corn Production
-                    <i class="fa fa-circle text-warning"></i> Acreage
-                  </div>
-                  <hr />
-                  <div class="card-stats">
-                    <i class="fa fa-check"></i> Data information certified
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
         <footer class="footer footer-black  footer-white "></footer>
       </div>
     </div>
     <!--   Core JS Files   -->
     <script src="static/js/us_corn_use_graph.js"></script>
+    <script src="static/js/Combined_Data.js"></script>
+		<script src="static/js/Commodities_Graph.js"></script>
     <script src="static/js/core/jquery.min.js"></script>
     <script src="static/js/core/popper.min.js"></script>
     <script src="static/js/core/bootstrap.min.js"></script>

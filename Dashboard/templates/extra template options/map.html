@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="static/img/corn.png" />
-    <link rel="icon" type="image/png" href="static/img/corn.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/corn.png" />
+    <link rel="icon" type="image/png" href="../assets/img/corn.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-      Drought Effects on Corn
+      Corn Production in the United States
     </title>
     <meta
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
@@ -24,6 +24,7 @@
     <!-- CSS Files -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet" />
     <link href="static/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link
@@ -40,67 +41,36 @@
       type="text/css"
       href="//cdn.leafletjs.com/leaflet-0.7/leaflet.css"
     />
-    <link rel="stylesheet" href="static/css/style1.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css"
-    />
-
-    <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
-
-  <!-- Sidebar -->
 
   <body class="">
     <div class="wrapper ">
       <div class="sidebar" data-color="white" data-active-color="danger">
-        <div class="logo">
-          <a class="simple-text logo-mini">
-            <div class="logo-image-small">
-              <img src="/static/img/corn.png" />
-            </div>
-          </a>
-          <a class="simple-text logo-normal">
-            Corn & Drought
-          </a>
-        </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
             <li>
               <a href="/">
                 <i class="nc-icon nc-bank"></i>
-                <p>Corn Use</p>
-              </a>
-            </li>
-            <li>
-              <a href="/planted">
-                <i class="nc-icon nc-tile-56"></i>
-                <p>Planted vs Yield</p>
-              </a>
-            </li>
-            <li>
-              <a href="/yield">
-                <i class="nc-icon nc-tile-56"></i>
-                <p>Yield vs Price</p>
-              </a>
-            </li>
-            <li class="active">
-              <a href="/states">
-                <i class="nc-icon nc-pin-3"></i>
-                <p>States and Counties</p>
-              </a>
-            </li>
-            <li>
-              <a href="/drought">
-                <i class="nc-icon nc-pin-3"></i>
-                <p>Drought Map</p>
+                <p>Dashboard</p>
               </a>
             </li>
             <li>
               <a href="/about">
                 <i class="nc-icon nc-diamond"></i>
-                <p>About this Project</p>
+                <p>Importance of Corn</p>
+              </a>
+            </li>
+            <li class="active">
+              <a href="/map">
+                <i class="nc-icon nc-pin-3"></i>
+                <p>Industries of Corn</p>
+              </a>
+            </li>
+            <li>
+              <a href="/drought">
+                <i class="nc-icon nc-pin-3"></i>
+                <p>Effects of Drought</p>
               </a>
             </li>
           </ul>
@@ -120,7 +90,36 @@
             <div
               class="collapse navbar-collapse justify-content-end"
               id="navigation"
-            ></div>
+            >
+              <li class="nav overlay-top">
+                <p>
+                  <label id="month"></label>
+                </p>
+              </li>
+              <ul class="navbar-nav">
+                <li class="nav-overlay top">
+                  <input
+                    id="slider"
+                    type="range"
+                    min="0"
+                    max="11"
+                    step="1"
+                    value="0"
+                  />
+                </li>
+                <li class="nav-overlay top">
+                  <img src="assets\img\droughtlegend.PNG" width="200" />
+                </li>
+                <li class="nav overlay top">
+                  <!-- <div class="overlay-top"> -->
+                  <div id="legend" class="legend">
+                    <div class="bar"></div>
+                    <div>Level D0 to D4</div>
+                  </div>
+                  <!-- </div> -->
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <!-- Content -->
@@ -128,27 +127,16 @@
         <div class="content">
           <div class="row">
             <div class="col-md-12">
-              <div class="card ">
-                <div class="card-header ">
-                  <h5 class="card-title"></h5>
-                </div>
-                <div class="card-body ">
-                  <canvas width="400" height="100"></canvas>
-                </div>
-                <div
-                  id="map"
-                  class="map"
-                  style="width:100%; height: 800px;"
-                ></div>
-                <nav id="menu"></nav>
-                <div class="card-footer ">
-                  <p>Accompanying Text</p>
-                  <hr />
-                </div>
-              </div>
+              <div
+                id="map"
+                class="map"
+                style="width:100%; height: 850px;"
+              ></div>
+              <nav id="menu"></nav>
             </div>
           </div>
         </div>
+        <footer class="footer footer-black  footer-white "></footer>
       </div>
     </div>
     <!--   Core JS Files   -->
@@ -158,20 +146,6 @@
     <script src="static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
     <!-- Chart JS -->
     <script src="static/js/plugins/chartjs.min.js"></script>
-    <!-- <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script> -->
-    <!-- Leaflet JavaScript -->
-    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
-    <!-- D3 JavaScript -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"
-    ></script>
-    <script src="https://d3js.org/d3.v4.js"></script>
-    <!-- Our JavaScript -->
-    <script src="static/js/config.js"></script>
-    <script src="static/js/countyproduction.js"></script>
-    <script src="static/js/us-states.js"></script>
-    <script src="static/js/d3.legend1.js"></script>
     <!--  Notifications Plugin    -->
     <script src="static/js/plugins/bootstrap-notify.js"></script>
     <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
@@ -179,6 +153,5 @@
       src="static/js/paper-dashboard.min.js?v=2.0.0"
       type="text/javascript"
     ></script>
-    <script></script>
   </body>
 </html>

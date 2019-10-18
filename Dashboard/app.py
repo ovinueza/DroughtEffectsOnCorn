@@ -32,19 +32,30 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+@app.route("/planted")
+def planted():
+    return render_template("planted.html")
 
 
-@app.route("/map")
-def map():
-    return render_template("map.html")
+@app.route("/yield")
+def yeild():
+    return render_template("yield.html")
+
+
+@app.route("/states")
+def states():
+
+    return render_template("states.html")
 
 
 @app.route("/drought")
 def drought():
     return render_template("drought.html")
+
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 
 @app.route("/data")

@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="static/img/corn.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-      Corn Production in the United States
+      Drought Effects on Corn
     </title>
     <meta
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
@@ -40,7 +40,14 @@
       type="text/css"
       href="//cdn.leafletjs.com/leaflet-0.7/leaflet.css"
     />
-    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css"
+    />
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
   </head>
 
   <!-- Sidebar -->
@@ -60,7 +67,7 @@
         </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
-            <li class="active">
+            <li>
               <a href="/">
                 <i class="nc-icon nc-bank"></i>
                 <p>Corn Use</p>
@@ -78,7 +85,7 @@
                 <p>Yield vs Price</p>
               </a>
             </li>
-            <li>
+            <li class="active">
               <a href="/states">
                 <i class="nc-icon nc-pin-3"></i>
                 <p>States and Counties</p>
@@ -113,36 +120,7 @@
             <div
               class="collapse navbar-collapse justify-content-end"
               id="navigation"
-            >
-              <li class="nav overlay-top">
-                <p>
-                  <label id="month"></label>
-                </p>
-              </li>
-              <ul class="navbar-nav">
-                <li class="nav-overlay top">
-                  <input
-                    id="slider"
-                    type="range"
-                    min="0"
-                    max="11"
-                    step="1"
-                    value="0"
-                  />
-                </li>
-                <li class="nav-overlay top">
-                  <img src="static\img\droughtlegend.PNG" width="200" />
-                </li>
-                <li class="nav overlay top">
-                  <!-- <div class="overlay-top"> -->
-                  <div id="legend" class="legend">
-                    <div class="bar"></div>
-                    <div>Level D0 to D4</div>
-                  </div>
-                  <!-- </div> -->
-                </li>
-              </ul>
-            </div>
+            ></div>
           </div>
         </nav>
         <!-- Content -->
@@ -171,7 +149,6 @@
             </div>
           </div>
         </div>
-        <footer class="footer footer-black  footer-white "></footer>
       </div>
     </div>
     <!--   Core JS Files   -->
@@ -181,9 +158,20 @@
     <script src="static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
     <!-- Chart JS -->
     <script src="static/js/plugins/chartjs.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+    <!-- <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script> -->
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <!-- D3 JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"
+    ></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <!-- Our JavaScript -->
     <script src="static/js/config.js"></script>
-    <script src="static/js/logic.js"></script>
+    <script src="static/js/countyproduction.js"></script>
+    <script src="static/js/us-states.js"></script>
+    <script src="static/js/d3.legend1.js"></script>
     <!--  Notifications Plugin    -->
     <script src="static/js/plugins/bootstrap-notify.js"></script>
     <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
@@ -191,5 +179,6 @@
       src="static/js/paper-dashboard.min.js?v=2.0.0"
       type="text/javascript"
     ></script>
+    <script></script>
   </body>
 </html>

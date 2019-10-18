@@ -44,10 +44,21 @@ var trace1 = {
   y: yield,
   yaxis: "y2",
   name: "yield",
+  marker: {
+    color: "rgb(8,48,107)"
+  },
   type: "scatter"
 };
 
-var trace2 = { x: years, y: price, name: "price", type: "bar" };
+var trace2 = {
+  x: years,
+  y: price,
+  name: "price",
+  marker: {
+    color: "rgb(158,202,225)"
+  },
+  type: "bar"
+};
 
 var data = [trace1, trace2];
 

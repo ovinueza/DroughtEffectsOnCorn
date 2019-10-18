@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="static/img/corn.png" />
-    <link rel="icon" type="image/png" href="static/img/corn.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="static/img/apple-icon.png"
+    />
+    <link rel="icon" type="image/png" href="static/img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
       Corn Production in the United States
@@ -24,23 +28,6 @@
     <!-- CSS Files -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet" />
     <link href="static/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link
-      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.leafletjs.com/leaflet-0.7/leaflet.css"
-    />
-    <link rel="stylesheet" href="static/css/style.css" />
   </head>
 
   <!-- Sidebar -->
@@ -60,7 +47,7 @@
         </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
-            <li class="active">
+            <li>
               <a href="/">
                 <i class="nc-icon nc-bank"></i>
                 <p>Corn Use</p>
@@ -84,16 +71,10 @@
                 <p>States and Counties</p>
               </a>
             </li>
-            <li>
+            <li class="active">
               <a href="/drought">
                 <i class="nc-icon nc-pin-3"></i>
-                <p>Drought Map</p>
-              </a>
-            </li>
-            <li>
-              <a href="/about">
-                <i class="nc-icon nc-diamond"></i>
-                <p>About this Project</p>
+                <p>Effects of Drought</p>
               </a>
             </li>
           </ul>
@@ -118,9 +99,17 @@
         </nav>
         <!-- Content -->
         <div class="content">
-          <div class="col-md-12">
-            <div id="map" class="map" style="width:100%; height: 850px;"></div>
-            <nav id="menu"></nav>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header ">
+                  Drought Map
+                </div>
+                <div class="card-body ">
+                  <div id="map" class="map"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <footer class="footer footer-black  footer-white "></footer>
@@ -133,9 +122,6 @@
     <script src="static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
     <!-- Chart JS -->
     <script src="static/js/plugins/chartjs.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
-    <script src="static/js/config.js"></script>
-    <script src="static/js/logic.js"></script>
     <!--  Notifications Plugin    -->
     <script src="static/js/plugins/bootstrap-notify.js"></script>
     <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->

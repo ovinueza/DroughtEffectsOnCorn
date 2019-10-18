@@ -42,9 +42,9 @@ function init() {
 
   var trace1 = {
     x: years,
-    y: yield1,
+    y: production,
     yaxis: "y2",
-    name: "yield",
+    name: "production",
     marker: {
       color: "rgb(8,48,107)"
     },
@@ -53,7 +53,7 @@ function init() {
 
   var trace2 = {
     x: years,
-    y: price,
+    y: yield1,
     name: "price",
     marker: {
       color: "rgb(158,202,225)"

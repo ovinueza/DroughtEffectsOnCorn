@@ -44,7 +44,6 @@ def yeild():
 
 @app.route("/states")
 def states():
-
     return render_template("states.html")
 
 
@@ -64,6 +63,11 @@ def data():
     df = pd.read_sql_query(stmt, db.session.bind)
     print(df.head())
     return jsonify(df.to_dict(orient='records'))
+
+
+@app.route("/csv")
+def csv():
+    return pd.read_csv('/data/CornHARVESTED_In_BU_AllStates_2010-2019.csv')
 
 
 if __name__ == "__main__":

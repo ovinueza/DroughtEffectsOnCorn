@@ -37,11 +37,6 @@ def commodity():
     return render_template("commodity.html")
 
 
-@app.route("/planted")
-def planted():
-    return render_template("planted.html")
-
-
 @app.route("/yield")
 def yeild():
     return render_template("yield.html")
@@ -50,6 +45,16 @@ def yeild():
 @app.route("/states")
 def states():
     return render_template("states.html")
+
+
+@app.route("/planted")
+def planted():
+    return render_template("planted.html")
+
+
+@app.route("/table")
+def table():
+    return render_template("table.html")
 
 
 @app.route("/drought")

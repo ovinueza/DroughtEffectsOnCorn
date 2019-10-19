@@ -64,7 +64,7 @@ function init() {
   var data = [trace1, trace2];
 
   var layout = {
-    title: "Corn Price and Production",
+    title: "Corn Yield vs Price",
     yaxis: { title: "Bushels" },
     yaxis2: {
       title: "Bushels per Acre",

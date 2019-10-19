@@ -13,16 +13,16 @@ function init() {
   ];
 
   production = [
-    303056829.26829267,
-    300340390.24390244,
-    262319780.4878049,
-    337334243.902439,
-    346763219.5121951,
-    323856285.71428573,
-    360667571.4285714,
-    347843023.8095238,
-    343335738.0952381,
-    418156090.90909094
+    12425330000,
+    12313956000,
+    10755111000,
+    13830704000,
+    14217292000,
+    13601964000,
+    15148038000,
+    14609407000,
+    14420101000,
+    13799151000
   ];
 
   yield1 = [
@@ -42,21 +42,21 @@ function init() {
 
   var trace1 = {
     x: years,
-    y: production,
+    y: yield1,
     yaxis: "y2",
-    name: "production",
+    name: "yield",
     marker: {
-      color: "rgb(8,48,107)"
+      color: "red"
     },
     type: "scatter"
   };
 
   var trace2 = {
     x: years,
-    y: yield1,
-    name: "price",
+    y: production,
+    name: "production",
     marker: {
-      color: "rgb(158,202,225)"
+      color: "lightblue"
     },
     type: "bar"
   };
@@ -65,9 +65,9 @@ function init() {
 
   var layout = {
     title: "Corn Price and Production",
-    yaxis: { title: "Price (Dollars per Bushel)" },
+    yaxis: { title: "Bushels" },
     yaxis2: {
-      title: "Millions of Bushels",
+      title: "Bushels per Acre",
       overlaying: "y",
       side: "right"
     }

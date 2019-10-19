@@ -32,6 +32,11 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/commodity")
+def commodity():
+    return render_template("commodity.html")
+
+
 @app.route("/planted")
 def planted():
     return render_template("planted.html")

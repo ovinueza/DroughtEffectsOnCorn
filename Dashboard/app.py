@@ -18,6 +18,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/CleanAverageDroughtData_20
 db = SQLAlchemy(app)
 
 Base = automap_base()
+
 Base.prepare(db.engine, reflect=True)
 
 print(Base.metadata.tables.keys())

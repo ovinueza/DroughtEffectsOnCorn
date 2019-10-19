@@ -38,6 +38,19 @@ function init() {
     5318.4
   ];
 
+  market = [
+    12425330000 / 5823.0,
+    12313956000 / 5652.0,
+    10755111000 / 5530.0,
+    13830704000 / 6430.0,
+    14217292000 / 6737.0,
+    13601964000 / 6577.0,
+    15148038000 / 6588.0,
+    14609407000 / 6829.0,
+    14420101000 / 6714.0,
+    13799151000 / 5318.4
+  ];
+
   years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019];
 
   var trace1 = {
@@ -46,7 +59,7 @@ function init() {
     yaxis: "y2",
     name: "yield",
     marker: {
-      color: "red"
+      color: "orange"
     },
     type: "scatter"
   };
@@ -54,20 +67,36 @@ function init() {
   var trace2 = {
     x: years,
     y: production,
-    name: "production",
+    name: "planted",
     marker: {
       color: "lightblue"
     },
     type: "bar"
   };
 
-  var data = [trace1, trace2];
+  var trace3 = {
+    x: years,
+    y: market,
+    yaxis: "y2",
+    name: "corn on market",
+    marker: {
+      color: "red"
+    },
+    type: "scatter"
+  };
+
+  var data = [trace1, trace2, trace3];
 
   var layout = {
-    title: "Corn Yield vs Price",
+    title: "Corn Planted vs Yield",
     yaxis: { title: "Bushels" },
     yaxis2: {
       title: "Bushels per Acre",
+      overlaying: "y",
+      side: "right"
+    },
+    yaxis3: {
+      title: "Bushels on Market",
       overlaying: "y",
       side: "right"
     }

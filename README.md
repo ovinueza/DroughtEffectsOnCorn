@@ -1,6 +1,6 @@
 # Drought Effects On Corn
 
-###[Visit the App](https://corndrought.herokuapp.com/drought)
+[Visit the App](https://corndrought.herokuapp.com/drought)
 
 ## Motivation 
 Corn is multipurpose crop. We use its derivatives every day in products like pharmaceutical, textiles, sweeteners and is blended in fuel for our vehicles.

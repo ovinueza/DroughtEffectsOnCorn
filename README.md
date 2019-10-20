@@ -35,7 +35,7 @@ As well as..
 
 [Leaflet](https://leafletjs.com/index.html)
 
-[GeoJson Merging](https://github.com/mapbox/geojson-merge)
+[GeoJSON Merging](https://github.com/mapbox/geojson-merge)
 
 
 ## Authors

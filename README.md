@@ -3,7 +3,7 @@
 [Visit the App](https://corndrought.herokuapp.com/drought)
 
 ## Motivation 
-Corn is multipurpose crop. We use its derivatives every day in products like pharmaceutical, textiles, sweeteners and is blended in fuel for our vehicles.
+Corn is a multipurpose crop. We use its derivatives every day in products like pharmaceutical, textiles, sweeteners and is blended in fuel for our vehicles, making it an indispensable asset for the U.S. economy. Therefor it is important to know how weather situations, like drought, affect the production, yield and price of corn.
 
 
 ## Data

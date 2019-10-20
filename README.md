@@ -16,7 +16,7 @@ Corn is multipurpose crop. We use its derivatives every day in products like pha
 
 [United States Department of Agriculture -Quick Stats Site](https://quickstats.nass.usda.gov/)
 
-[USDA - Clean CSVs](#)
+[USDA - Clean CSVs](https://github.com/ovinueza/DroughtEffectsOnCorn/tree/master/Exploration/CleanDataFiles)
 
 
 ## Preparation

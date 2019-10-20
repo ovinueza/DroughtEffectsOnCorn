@@ -24,12 +24,17 @@ Corn is multipurpose crop. We use its derivatives every day in products like pha
 To Replicate this project from the start you will need: Python, Pandas and Plotly
 
 `$ pip insall plotly==4.1.0`
+
 or
+
 `conda install -c plotly=4.1.0`
 
 As well as..
+
 [Mapbox & Mapbox API Key](https://www.mapbox.com/)
+
 [Leaflet](https://leafletjs.com/index.html)
+
 [GeoJson Merging](https://github.com/mapbox/geojson-merge)
 
 

@@ -43,7 +43,7 @@ As well as..
 #### Oswald Vinueza
 Research, Data Gathering, Data Cleaning, CSV Conversion to SQLite, Map Visualizations, Domestic Use Visualization and Overall Concept.
 #### Michael Harper
-Data Clening, Corn Subsidies and Corn Yield Visualization
+Data Cleaning, Corn Subsidies and Corn Yield Visualization
 #### William Copeland
 Corn Planted vs Yield Visualiztion, Flask Setup, HTML transfer and Connection to Heroku. 
 
